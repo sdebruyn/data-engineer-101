@@ -14,9 +14,9 @@
                   
                   <div style="text-align: center;">
                     {{ if .Params.img }}
-                    <img width="95%" src="{{ .Site.BaseURL }}images/{{ .Params.img }}" alt="{{ .Title }}">
+                    <img width="95%" style="height: 140px; object-fit: scale-down;" src="{{ .Site.BaseURL }}images/{{ .Params.img }}" alt="{{ .Title }}">
                     {{ else }}
-                    <img width="95%" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}">
+                    <img width="95%" style="height: 140px; object-fit: scale-down;" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}">
                     {{ end }}
                   </div>
                   
@@ -25,7 +25,7 @@
                   </div>
                   
                   <div class="panel-body"><small>
-                    {{ .Summary | plainify | truncate 180 }}</small>
+                    {{ .Summary | plainify | truncate 140 }}</small>
                   </div>
                 </div>
                 </a>
