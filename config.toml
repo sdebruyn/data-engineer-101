@@ -1,3 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://labs.debruyn.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Sam Debruyn Labs"
+theme = "hugo-cards"
+
+[params]
+  builtBy = "Sam Debruyn"
+
+  [params.copyright]
+     name = "Sam Debruyn"
+     link = "https://debruyn.dev"
