@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Data Engineer 101"
 theme = "hugo-cards"
 
+[permalinks]
+  posts = "/:slug/"
+
 [params]
   description = "A list of useful websites and tools for (aspiring) data engineers"
   repo = "https://github.com/sdebruyn/data-engineer-101"
