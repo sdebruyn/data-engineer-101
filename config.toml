@@ -1,10 +1,10 @@
 baseURL = "https://labs.debruyn.dev/"
 languageCode = "en-us"
-title = "Sam Debruyn Labs"
+title = "Data Engineer 101"
 theme = "hugo-cards"
 
 [params]
-  builtBy = "Sam Debruyn"
+  description = "A list of useful websites and tools for (aspiring) data engineers"
 
   [params.copyright]
      name = "Sam Debruyn"
