@@ -5,8 +5,8 @@
 
           <header class="post-header">
             <h1 class="post-title" itemprop="name headline"><a href="{{ .Params.uri }}">{{ .Title }}</a></h1>
-            <p class="post-meta">{{ delimit .Params.categories " • " }}</p>
-                 
+            <p class="post-meta">{{ range $i, $e := .Params.tags }}{{ if $i }} • {{ end }}<a href="{{ "/tags/" | relLangURL }}{{ $e | urlize }}">{{ $e }}</a>{{ end }}</p>
+                
           </header>
 
           <div class="post-content" itemprop="articleBody">

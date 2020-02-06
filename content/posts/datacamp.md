@@ -1,7 +1,7 @@
 ---
 title:  "DataCamp"
 uri: "https://www.datacamp.com/"
-categories: ["learn", "python", "scala", "r", "shell"]
+tags: ["learn", "python", "scala", "r", "shell"]
 img: "datacamp.png"
 free: false
 ---
