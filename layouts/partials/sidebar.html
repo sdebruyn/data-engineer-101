@@ -2,7 +2,7 @@
         <div class="post-img">
             <a href="{{ .Params.uri }}">
             {{ if .Params.img }}
-                <img width="600" src="{{ .Params.img }}" alt="{{ .Params.title }}">
+                <img width="600" src="{{ .Site.BaseURL }}images/{{ .Params.img }}" alt="{{ .Params.title }}">
             {{ else }}
                 <img width="600" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}">
             {{ end }}

@@ -5,7 +5,4 @@ theme = "hugo-cards"
 
 [params]
   description = "A list of useful websites and tools for (aspiring) data engineers"
-
-  [params.copyright]
-     name = "Sam Debruyn"
-     link = "https://debruyn.dev"
+  repo = "https://github.com"

@@ -14,7 +14,7 @@
                   
                   <div style="text-align: center;">
                     {{ if .Params.img }}
-                    <img width="95%" src="{{ .Params.img }}" alt="{{ .Title }}">
+                    <img width="95%" src="{{ .Site.BaseURL }}images/{{ .Params.img }}" alt="{{ .Title }}">
                     {{ else }}
                     <img width="95%" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}">
                     {{ end }}
