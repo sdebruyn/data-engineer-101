@@ -5,4 +5,4 @@ theme = "hugo-cards"
 
 [params]
   description = "A list of useful websites and tools for (aspiring) data engineers"
-  repo = "https://github.com"
+  repo = "https://github.com/sdebruyn/data-engineer-101"
