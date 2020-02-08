@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 tags: []
 uri: ""
-image: ""
+img: "{{ .Name }}.png"
 free: true
 ---
 

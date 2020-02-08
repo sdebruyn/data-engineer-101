@@ -2,7 +2,7 @@
 title: "Katacoda"
 tags: ["learn", "docker", "kubernetes"]
 uri: "https://www.katacoda.com/"
-image: "katacoda.jpg"
+img: "katacoda.jpg"
 free: true
 ---
 
