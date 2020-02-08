@@ -1,6 +1,6 @@
 ---
 title: "Docker"
-tags: ["platform", "docker"]
+tags: ["tool", "docker"]
 uri: "https://www.docker.com/"
 img: "docker.png"
 free: true
