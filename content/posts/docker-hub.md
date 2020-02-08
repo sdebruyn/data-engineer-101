@@ -1,6 +1,6 @@
 ---
 title: "Docker Hub"
-tags: ["docker"]
+tags: ["tool", "docker"]
 uri: "https://hub.docker.com/"
 img: "docker.png"
 free: true
