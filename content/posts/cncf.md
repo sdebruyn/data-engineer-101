@@ -1,6 +1,6 @@
 ---
 title: "Cloud Native Computing Foundation"
-tags: ["company", "kubernetes"]
+tags: ["company", "kubernetes", "cncf"]
 uri: "https://www.cncf.io/"
 img: "cncf.png"
 free: true

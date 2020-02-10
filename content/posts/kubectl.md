@@ -6,4 +6,4 @@ img: "kubectl.png"
 free: true
 ---
 
-CLI bundled with Kubernetes to manage a Kubernetes cluster.
+Kubectl is the CLI bundled with Kubernetes to manage a Kubernetes cluster.

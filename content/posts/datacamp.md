@@ -6,4 +6,4 @@ img: "datacamp.png"
 free: false
 ---
 
-Website with courses on data engineering and data science.
+DataCamp is a learning platform with courses on data engineering, data science and machine learning. You can learn programming languages like Python, Scala and R or learn how to work with tools commonly used in data engineering projects.
