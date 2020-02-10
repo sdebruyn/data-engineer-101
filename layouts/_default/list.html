@@ -3,6 +3,11 @@
 <div class="home">
  
     <p>{{ .Site.Params.description }}</p>
+    <p>Filter by tag:
+    {{ range $i, $e := first 10 .Site.Taxonomies.tags.ByCount }}
+      {{ if $i }} • {{ end }}<a href="{{ $e.Page.Permalink }}">{{ $e.Page.Title }}</a>
+    {{ end }}
+    </p>
   
     <div class="row pack">
 
