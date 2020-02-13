@@ -25,7 +25,7 @@
     </div>
   </div>
 
-    <div class="row pack">
+    <div class="row pack flexthis">
 
         {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
         {{ range $paginator.Pages }}   
@@ -42,7 +42,7 @@
                   </div>
                   
                   <div class="panel-body">
-                    <h3 class="panel-title pull-left">{{ .Title | truncate 21 }}</h3><span class="post-meta pull-right"><small>{{ range first 1 .Params.tags }}{{ . }}{{ end }}</small></span>
+                    <h3 class="panel-title pull-left">{{ .Title | truncate 32 }}</h3><span class="post-meta pull-right"><small>{{ range first 1 .Params.tags }}{{ . }}{{ end }}</small></span>
                   </div>
                   
                   <div class="panel-body"><small>
