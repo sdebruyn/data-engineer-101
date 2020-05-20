@@ -1,4 +1,4 @@
-baseURL = "https://labs.debruyn.dev/"
+baseURL = "https://data.debruyn.dev/"
 languageCode = "en-us"
 title = "Data Engineer 101"
 theme = "hugo-cards"
